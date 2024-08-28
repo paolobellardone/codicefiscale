@@ -29,7 +29,7 @@ Per l'installazione e la configurazione dei prerequisiti, fare riferimento alla 
 
 ### Esecuzione
 
-Per eseguire e/o modificare l'applicazione [scaricare](https://github.com/paolobellardone/codicefiscale.git) oppure clonare il repository con il seguente comando:
+Per eseguire e/o modificare l'applicazione [scaricare](https://github.com/paolobellardone/codicefiscale/archive/refs/heads/main.zip) oppure clonare il repository con il seguente comando:
 
 ```bash
 git clone https://github.com/paolobellardone/codicefiscale.git
