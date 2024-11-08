@@ -131,8 +131,9 @@ CodiceFiscale.eval_date_code = function (dd, mm, yy, gender) {
   d.setYear(yy)
   d.setMonth(mm - 1)
   d.setDate(dd)
-  let year = "0" + d.getFullYear()
-  year = year.substring(year.length - 2, 2)
+  let year = d.getFullYear()
+  year = "0" + year
+  year = year.substr(year.length - 2, 2)
   let month = this.months[d.getMonth()]
   let day = d.getDate()
   if (gender.toUpperCase() == 'F') day += 40
