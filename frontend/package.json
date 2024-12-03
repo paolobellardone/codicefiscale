@@ -4,7 +4,7 @@
   "description": "An Oracle JavaScript Extension Toolkit(JET) web app",
   "dependencies": {
     "@oracle/oraclejet": "~17.1.0",
-    "@oracle/oraclejet-core-pack": "^17.1.0",
+    "@oracle/oraclejet-core-pack": "^17.1.1",
     "@oracle/oraclejet-tooling": "~17.1.0"
   },
   "devDependencies": {
@@ -12,7 +12,7 @@
     "extract-zip": "^1.7.0",
     "fs-extra": "^8.1.0",
     "glob": "10.4.5",
-    "underscore": "^1.10.2"
+    "underscore": "^1.13.7"
   },
   "engines": {
     "node": ">=16.0.0"
