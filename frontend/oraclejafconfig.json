@@ -1,5 +1,5 @@
 // JAF Generated OJET Based Configuration
-// Updated: Wed Nov 06 2024 16:59:19 GMT+0100 (Central European Standard Time)
+// Updated: Fri Feb 14 2025 11:46:56 GMT+0100 (Central European Standard Time)
 
 {
    "title": [
@@ -39,6 +39,6 @@
    },
    "ojet": {
       "update": true,
-      "md5": "d9eba631c1f06202d3f158461cd8b7b1"
+      "md5": "551fc686911a91af38bdd5227f47067c"
    }
 }
