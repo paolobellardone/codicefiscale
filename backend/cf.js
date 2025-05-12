@@ -36,7 +36,7 @@ app.use(parser.json()) // support json encoded bodies
 app.use(parser.urlencoded({ extended: true })) // support encoded bodies
 
 app.use(cors())
-app.options('*', cors())
+app.options(/(.*)/, cors())
 app.use(function (req, res, next) {
   res.setHeader('Content-Type', 'application/json');
   next();
