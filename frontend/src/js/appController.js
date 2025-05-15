@@ -26,7 +26,7 @@
 
 define(['ojs/ojcontext', 'ojs/ojresponsiveutils', 'ojs/ojresponsiveknockoututils', 'knockout', 'ojs/ojarraydataprovider', 'text!comuni.json',
   'ojs/ojknockout',
-  'oj-c/menu-button', 'oj-c/form-layout', 'oj-c/input-text', 'oj-c/radioset', 'oj-c/input-date-picker', 'oj-c/select-single', 'oj-c/button', 'oj-c/toolbar', 'ojs/ojdialog', 'oj-c/dialog'],
+  'oj-c/menu-button', 'oj-c/form-layout', 'oj-c/input-text', 'oj-c/radioset', 'oj-c/input-date-picker', 'oj-c/select-single', 'oj-c/button', 'oj-c/toolbar', 'oj-c/dialog'],
   function (Context, ResponsiveUtils, ResponsiveKnockoutUtils, ko, ArrayDataProvider, comuniArray) {
 
     function ControllerViewModel() {
@@ -78,7 +78,7 @@ define(['ojs/ojcontext', 'ojs/ojresponsiveutils', 'ojs/ojresponsiveknockoututils
       // Input
       this.userName = ko.observable();
       this.userSurname = ko.observable();
-      this.userGender = ko.observable("male");
+      this.userGender = ko.observable("M");
       this.userBirthdate = ko.observable("1970-01-01");
       this.userTownOfBirth = ko.observable();
       // Output
@@ -86,8 +86,8 @@ define(['ojs/ojcontext', 'ojs/ojresponsiveutils', 'ojs/ojresponsiveknockoututils
       self.fiscalCode = ko.observable();
       // Other variables
       this.genderOptions = [
-        { value: "male", label: "Maschio" },
-        { value: "female", label: "Femmina" }
+        { value: "M", label: "Maschio" },
+        { value: "F", label: "Femmina" }
       ]
       this.dayBirthdate = ko.observable();
       this.monthBirthdate = ko.observable();
