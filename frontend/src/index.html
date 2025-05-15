@@ -3,7 +3,7 @@
 
  MIT License
 
- Copyright (c) 2024 PaoloB
+ Copyright (c) 2024,2025 PaoloB
 
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal
@@ -60,13 +60,13 @@
         </div>
         <div class="oj-flex-bar-end">
           <!-- Responsive Toolbar -->
-          <oj-toolbar>
-            <oj-c-menu-button label="[[appMenu]]" id="helpMenu" items="[[helpMenuItems]]" on-oj-menu-action="[[helpMenuHandler]]" display="[[smScreen() ? 'icons' : 'all']]" chroming="borderless">
-              <span slot="startIcon" class="oj-ux-ico-help"></span>
-            </oj-c-menu-button>
-          </oj-toolbar>
+          <oj-c-toolbar
+              aria-label="[[appMenu]]"
+              chroming="borderless"
+              items="[[helpMenuItems]]">
+          </oj-c-toolbar>
           <!-- About dialog -->
-          <oj-dialog id="aboutDialog" cancel-behavior="icon">
+          <oj-c-dialog cancel-behavior="escape" opened="{{isOpened}}" id="aboutDialog">
             <div slot="header">
               <h1 class="oj-dialog-title"><span role="img" class="oj-icon app-icon" title="App Logo" alt="App Logo"></span>About</h1>
             </div>
@@ -85,7 +85,10 @@
                 </p>
               </div>
             </div>
-          </oj-dialog>
+            <div slot="footer">
+              <oj-c-button id="okButton" on-oj-action="[[close]]" label="OK"></oj-c-button>
+            </div>
+          </oj-c-dialog>
         </div>
       </div>      
     </header>

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "An Oracle JavaScript Extension Toolkit(JET) web app",
   "devDependencies": {
-    "@oracle/ojet-cli": "^18.0.0",
+    "@oracle/ojet-cli": "^18.1.0",
     "extract-zip": "^1.7.0",
     "fs-extra": "^8.1.0",
     "glob": "10.4.5",
@@ -14,7 +14,7 @@
   },
   "private": true,
   "dependencies": {
-    "@oracle/oraclejet": "^18.0.0",
-    "@oracle/oraclejet-core-pack": "^18.0.3"
+    "@oracle/oraclejet": "^18.1.0",
+    "@oracle/oraclejet-core-pack": "^18.1.0"
   }
 }

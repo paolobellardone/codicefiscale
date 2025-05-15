@@ -2,7 +2,7 @@
  * @license
  * MIT License
  * 
- * Copyright (c) 2024 PaoloB
+ * Copyright (c) 2024,2025 PaoloB
  * 
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -29,7 +29,7 @@
  * by some modules), we are listing it explicitly to get the reference to the 'ko'
  * object in the callback
  */
-require(['ojs/ojbootstrap', 'knockout', './appController', 'ojs/ojknockout', 'ojs/ojbutton', 'ojs/ojtoolbar', 'ojs/ojmenu'],
+require(['ojs/ojbootstrap', 'knockout', './appController'],
   function (Bootstrap, ko, app) { // this callback gets executed when all required modules are loaded
     Bootstrap.whenDocumentReady().then(
       function() {
