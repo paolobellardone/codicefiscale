@@ -15,6 +15,6 @@
   "private": true,
   "dependencies": {
     "@oracle/oraclejet": "^19.0.0",
-    "@oracle/oraclejet-core-pack": "^19.0.0"
+    "@oracle/oraclejet-core-pack": "^19.0.1"
   }
 }
