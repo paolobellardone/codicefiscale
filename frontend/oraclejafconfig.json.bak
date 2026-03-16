@@ -1,5 +1,5 @@
 // JAF Generated OJET Based Configuration
-// Updated: Thu Feb 26 2026 10:17:26 GMT+0100 (Central European Standard Time)
+// Updated: Mon Aug 18 2025 15:26:59 GMT+0200 (Central European Summer Time)
 
 {
    "title": [
@@ -25,7 +25,7 @@
       "./jet_components/**/component.json"
    ],
    "builtinJetRules": true,
-   "jetVer": "20.0",
+   "jetVer": "20.0.0",
    "ecmaVer": 14,
    "format": "prose",
    "severity": "all",
@@ -39,6 +39,6 @@
    },
    "ojet": {
       "update": true,
-      "md5": "2296fa11bfbc7ac9cebe2035aa9a61b8"
+      "md5": "2d5e1d1a0e2fa91b2aff199252d53d41"
    }
 }
