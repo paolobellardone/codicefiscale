@@ -3,12 +3,12 @@
   "use": "local",
   "cdns": {
     "jet": {
-      "prefix": "https://static.oracle.com/cdn/jet/20.0.0/default/js",
-      "css": "https://static.oracle.com/cdn/jet/20.0.0/default/css",
-      "csspreact": "https://static.oracle.com/cdn/jet/20.0.0/3rdparty/oraclejet-preact/amd",
+      "prefix": "https://static.oracle.com/cdn/jet/21.0.0/default/js",
+      "css": "https://static.oracle.com/cdn/jet/21.0.0/default/css",
+      "csspreact": "https://static.oracle.com/cdn/jet/21.0.0/3rdparty/oraclejet-preact/amd",
       "config": "bundles-config.js"
     },
-    "3rdparty": "https://static.oracle.com/cdn/jet/20.0.0/3rdparty"
+    "3rdparty": "https://static.oracle.com/cdn/jet/21.0.0/3rdparty"
   },
   "libs": {
     "knockout": {
@@ -17,12 +17,12 @@
       "debug": {
         "src": "knockout-latest.debug.js",
         "path": "libs/knockout/knockout-#{version}.debug.js",
-        "cdnPath": "knockout/knockout-3.5.1.debug"
+        "cdnPath": "knockout/knockout-3.5.3.debug"
       },
       "release": {
         "src": "knockout-latest.js",
         "path": "libs/knockout/knockout-#{version}.js",
-        "cdnPath": "knockout/knockout-3.5.1"
+        "cdnPath": "knockout/knockout-3.5.3"
       }
     },
     "jquery": {
@@ -31,12 +31,12 @@
       "debug": {
         "src": "jquery.js",
         "path": "libs/jquery/jquery-#{version}.js",
-        "cdnPath": "jquery/jquery-3.7.1"
+        "cdnPath": "jquery/jquery-4.0.0"
       },
       "release": {
         "src": "jquery.min.js",
         "path": "libs/jquery/jquery-#{version}.min.js",
-        "cdnPath": "jquery/jquery-3.7.1.min"
+        "cdnPath": "jquery/jquery-4.0.0.min"
       }
     },
     "jqueryui-amd": {
@@ -51,7 +51,7 @@
           "vendor/jquery-color/jquery.color.js"
         ],
         "path": "libs/jquery/jqueryui-amd-#{version}",
-        "cdnPath": "jquery/jqueryui-amd-1.14.1"
+        "cdnPath": "jquery/jqueryui-amd-1.14.2"
       },
       "release": {
         "src": [
@@ -62,7 +62,7 @@
           "vendor/jquery-color/jquery.color.js"
         ],
         "path": "libs/jquery/jqueryui-amd-#{version}.min",
-        "cdnPath": "jquery/jqueryui-amd-1.14.1.min"
+        "cdnPath": "jquery/jqueryui-amd-1.14.2.min"
       }
     },
     "hammerjs": {
